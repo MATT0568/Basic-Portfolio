@@ -32,7 +32,6 @@ header {
 
 h1 {
   font-weight: bold;
-  margin-left: 480px;
   padding-top: 22px;
   float: left;
   background-color: #4aaaa5;
@@ -123,19 +122,28 @@ a:link, a:visited, a:hover, a:active {
   color: #777777;
   text-decoration: none;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  padding-right: 16px;
-  padding-left: 10px;
 }
 
 .header-links {
   float: right;
   margin-top: 25px;
   font-size: 18px;
-  margin-right: 465px;
 }
 
 .link-border {
   border-right: 1px solid #dddddd;
+  padding-right: 16px;
+  padding-left: 10px;
+}
+
+.width {
+  width: 960px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .about-content {
